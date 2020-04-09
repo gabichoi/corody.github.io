@@ -26,6 +26,18 @@
 		line-height: 1.75em;
 	}
 
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
 /* Main */
 
 	.main {
@@ -38,19 +50,17 @@
 
 	.main > .content {
 		width: 100%;
-		height: 100%;
+		/*height: 100%;*/
 	}
 
 	.main.first > .content {
 		width: 100%;
-		height: 100vh;
-		background-color: yellow;
+		/*height: 100vh;*/
 	}
 
 	.main.second > .content {
 		width: 100%;
-		height: 69vh;
-		background-color: blue;
+		/*height: 69vh;*/
 	}
 
 
@@ -62,13 +72,12 @@
 
 	.main.third > .content {
 		width: 84%;
-		height: 110vh;
-		background-color: green;
+		/*height: 110vh;*/
 	}
 
 	.main.fourth > .content {
 		width: 100%;
-		height: 100vh;
+		/*height: 100vh;*/
 	}
 
 /* Text */ 
@@ -82,21 +91,26 @@
 
 	.textbox.format1 article {
 		width: 100%;
-		height: 100%;
+		/*height: 100%;*/
 		padding-top: 10em;
 		padding-left: 21em;
-		padding-bottom: 5em;
+		padding-right: 0em;
+		/*padding-bottom: 5em;*/
 		position: absolute;
+
 		/*background-color: green;*/
 	}
 
 	.textbox.format2 article {
 		width: 100%;
-		height: 100%;
-		padding-left: 21em;
-		padding-bottom: 5em;
+		padding-top: 10em;
+		padding-left: 0em;
+		padding-right: 21em;
+		/*margin: auto;*/
+		/*height: 100%;*/
+		/*padding-left: 21em;*/
+		/*padding-bottom: 5em;*/
 		position: absolute;
-		background-color: red;
 	}
 
 	/*.textbox.format2 article {
@@ -134,16 +148,21 @@
 		width: 87%;
 		height: 450px;
 		background: #c9dae9;
-		padding-left: 2em;
-		padding-right: 2em;
+		padding: 1em 2em 1em 2em;
+		margin-left: 1%;
+		margin-bottom: 5em;
 	}
 
 	.text.style2 {
 		width: 87%;
 		height: 450px;
 		background: #c9dae9;
-		padding-left: 2em;
-		padding-right: 2em;
+		padding: 1em 2em 1em 2em;
+		/*margin-top: 0em;*/
+		margin-left: 12.5%;
+		margin-bottom: 5em;
+
+		/*padding-right: 2em;*/
 	}
 
 	/*.text.style2 {
@@ -161,6 +180,7 @@
 		padding-top: 1em;
 		padding-left: 2em;
 		padding-right: 2em;
+
 	}
 
 	.text.style4 {
@@ -170,6 +190,7 @@
 		padding-left: 2em;
 		padding-right: 2em;
 		margin-left: 6em;
+		margin-top: 5em;
 		margin-bottom: 5em;
 	}
 
@@ -206,23 +227,25 @@
 		top: -5em; 
 		left: 340px; 
 		/*width: 50%; */
-		height: 500px;
+		height: 60%;
 	}
 
 	#bear1 img{
 		position: absolute; 
 		top: 10em; 
-		left: 120px; 
+		/*left: 120px; */
 		height: 450px;
 		display: block;
+		margin-left: 9%;
 	}
 
 	#bear2 img{
 		position: absolute; 
 		/*top: 10em; */
-		right: 120px; 
+		/*right: 120px; */
 		height: 450px;
 		display: block;
+		margin-left: 65%
 	}
 
 	/*#bear2 img{
@@ -236,14 +259,14 @@
 		top: -4em; 
 		padding-left: 1.6em;
 		position: absolute;
-		height: 500px;
+		height: 63%;
 		z-index: 1;		
 	}
 
 	#icons img{
 		padding-left: 6.5em;
 		position: absolute;
-		height: 90px;
+		height: 11.2%;
 	}
 
 	.moving {
