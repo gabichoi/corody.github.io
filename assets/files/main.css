@@ -78,7 +78,8 @@
 		width: 100%;
 		height: 100%;
 		padding-left: 4.9em;
-		padding-right: 1em;
+		padding-top: 0em;
+		/*padding-right: 1em;*/
 		position: absolute;
 	}
 
@@ -105,7 +106,7 @@
 	}
 
 	.text.style1 {
-		width: 800px;
+		width: 87%;
 		height: 450px;
 		background: #c9dae9;
 		padding-left: 2em;
@@ -113,7 +114,7 @@
 	}
 
 	.text.style2 {
-		width: 800px;
+		width: 87%;
 		height: 450px;
 		background: #f9eeac;
 		padding-left: 2em;
@@ -171,7 +172,7 @@
 		position: absolute; 
 		top: -5em; 
 		left: 340px; 
-		width: 50%; 
+		/*width: 50%; */
 		height: 500px;
 	}
 
@@ -184,6 +185,7 @@
 
 	#bear2 img{
 		position: absolute; 
+		top: 0em; 
 		right: 120px; 
 		height: 450px;
 	}
