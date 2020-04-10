@@ -128,8 +128,8 @@
     }
 
     .second-section-text {
-        background-color: #97b8d1;
-        padding: 30px 47px 0 47px;
+        background-color: #f9eeac;
+        padding: 30px 47px 30px 47px;
         z-index: 1;
         position: relative;
     }
@@ -138,6 +138,8 @@
         padding-top: 260px;
         padding-left: 125px;
         position: relative; 
+        width: 65%;
+        height: 65%;
     }
 
     .moving {
@@ -223,7 +225,6 @@
 
     input[type="radio"],
     label {
-        /*font: inherit;*/
         font-size: 14pt;
         color: #696969;
         letter-spacing: 0.07em;
@@ -243,6 +244,7 @@
         margin-top: 1.5em;
         display: inline-block;
         text-align: center;
+        letter-spacing: 0.2em;
     }
 
     input[type="submit"]:hover,

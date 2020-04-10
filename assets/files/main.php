@@ -1,6 +1,3 @@
-<!-- Gets the values submitted for the fields: name, email, message -->
-
-
 <?php
 
   $errors = '';
@@ -20,7 +17,7 @@
   $user_contact = $_POST['contact'];
   $user_message = $_POST['message'];
   $user_send = $_POST['send'];
-  $corody_email = "gabichoi96@gmail.com";
+  $corody_email = "corodyproject@gmail.com";
 
   if(empty($errors))
   {
