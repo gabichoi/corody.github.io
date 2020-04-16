@@ -119,25 +119,22 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        height: 915px;
+        height: 900px;
     }
 
     .second-section > div {
         margin: 10px;
-        flex-basis: 28.5%;
+        
     }
 
     .second-section-text {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        flex-basis: 29%;
         background-color: #f9eeac;
         padding: 32px 47px 30px 47px;
         z-index: 1;
         position: relative;
         top: -200px;
-        bottom: 50px;
+        height: 600px;
     }
 
     .second-section-bear {
@@ -145,13 +142,13 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        flex-basis: 29%;
         z-index: 2;
-        position: relative; 
     }
 
     .second-section-bear img {
-        width: 70%;
-        height: 70%;
+        width: 65%;
+        height: 65%;
     }
 
     .second-section-icon {
@@ -159,7 +156,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        position: relative;
+        flex-basis: 29%;
         padding-top: 30px;
     }
 
