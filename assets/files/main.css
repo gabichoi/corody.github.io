@@ -119,28 +119,68 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        height: 915px;
     }
 
     .second-section > div {
         margin: 10px;
-        margin-top: -11em;
         flex-basis: 28.5%;
     }
 
     .second-section-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         background-color: #f9eeac;
         padding: 32px 47px 30px 47px;
         z-index: 1;
         position: relative;
-        height: 100%;
+        top: -200px;
+        bottom: 50px;
+    }
+
+    .second-section-bear {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        position: relative; 
+    }
+
+    .second-section-bear img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .second-section-icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 30px;
     }
 
     .second-section-icon img {
-        padding: 260px 0 0 125px;
-        /*padding-left: 125px;*/
-        position: relative; 
-        width: 65%;
-        height: 65%;
+        position: center;
+    }
+
+    .icon1 img{
+        width: 25%;
+        height: 25%;
+        position: center;
+    }
+
+    .icon2 img{
+        width: 32%;
+        height: 35%;
+    }
+
+    .icon3 img{
+        width: 30%;
+        height: 29%;
     }
 
     .moving {
@@ -151,17 +191,10 @@
     }
 
     @keyframes moveup {
-        from {top: 230px;}
+        from {top: 130px;}
         to {top: 0px;}
     }
     
-    .second-section-bear img {
-        padding: 200px 55px 0 55px;
-        z-index: 2;
-        position: relative; 
-        width: 100%;
-        height: 100%;
-    }
 
 /* Third Section */
 
@@ -175,7 +208,6 @@
 
     .third-section > div {
         margin: 10px;
-        margin-bottom: 60px;
     }
 
     .third-section-text {
@@ -199,13 +231,11 @@
     }
 
     form > .template > .field.half1 {
-        
         width: 50%;
         padding-right: 10px;
     }
 
     form > .template > .field.half2 {
-        
         width: 50%;
         padding-left: 10px;
     }
@@ -256,18 +286,3 @@
         opacity: 0.8;
     }
 
-/* Fourth Section */
-
-    .fourth-section {
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        padding: 30px 0 20px 0;
-    }
-
-    .fourth-section-text {
-        flex-basis: 89%;
-        background-color: #c9dae9;
-        padding: 37px 55px 45px 55px;
-    }
-    
